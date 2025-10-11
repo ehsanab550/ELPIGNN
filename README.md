@@ -19,18 +19,6 @@ bash
 - python
 - from ELPIGNN_model import ELPIGNN, BuildConfig
 
-# Load data and train model
-~ dataset = ElectrideDataset(
-    "data/ptable_final_cleaned2.csv",
-    "data/PI_electride_featursfinal2.csv", 
-    "path/to/POSCAR/files/*/POSCAR"
-)
-
-~ model = ELPIGNN(
-    node_dim=dataset.graph_builder.elem_table.dim,
-    global_dim=dataset.global_dim,
-    num_classes=dataset.num_classes
-)
 # Project Structure
 ELPIGNN_model.py - Core model architecture and graph building
 
