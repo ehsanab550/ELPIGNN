@@ -1,5 +1,5 @@
 # ELPIGNN
-<img width="927" height="625" alt="image" src="https://github.com/user-attachments/assets/cf280abe-a5a2-46a3-9a61-070ed1271e66" />
+                 <img width="927" height="625" alt="image" src="https://github.com/user-attachments/assets/78be9700-29a6-4a51-a049-6ebfac6b13f3" />
 
 ELPIGNN: Angle-aware GNN for Electride Classification
 ## Installation
