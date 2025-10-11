@@ -5,7 +5,7 @@
 A deep learning framework for classifying electride materials using graph neural networks and physics-informed features.
 
 # Overview
-ELPIGNN (Element and Physics-Informed Graph Neural Network) is designed for multi-class classification of electride materials. It combines graph neural networks with angle-aware message passing and physics-based descriptors to classify materials into 17 categories of alkali and alkaline earth electrides.
+ELPIGNN (Element and Physics-Informed Graph Neural Network) is designed for multi-class classification of electride materials. It combines graph neural networks with angle-aware message passing and physics-based descriptors to classify materials into categories of alkali and alkaline earth electrides.
 
 # Quick Start
 Installation
@@ -20,13 +20,13 @@ bash
 - from ELPIGNN_model import ELPIGNN, BuildConfig
 
 # Load data and train model
-dataset = ElectrideDataset(
+~ dataset = ElectrideDataset(
     "data/ptable_final_cleaned2.csv",
     "data/PI_electride_featursfinal2.csv", 
     "path/to/POSCAR/files/*/POSCAR"
 )
 
-model = ELPIGNN(
+~ model = ELPIGNN(
     node_dim=dataset.graph_builder.elem_table.dim,
     global_dim=dataset.global_dim,
     num_classes=dataset.num_classes
