@@ -20,13 +20,13 @@ bash
 - from ELPIGNN_model import ELPIGNN, BuildConfig
 
 # Project Structure
-+ ELPIGNN_model.py              - Core model architecture and graph building
++ ELPIGNN_model.py              ### Core model architecture and graph building
 
-+ PI_electride_features.py      - Physics-informed feature generation
++ PI_electride_features.py      ### Physics-informed feature generation
 
-+ ELPIGNN_sample_17class.py     - Example implementation
++ ELPIGNN_sample_17class.py     ### Example implementation
 
-+ data/                         - Element properties and pre-computed features
++ data/                         ### Element properties and pre-computed features
 
 # Key Features
 ~ Graph-based representation of crystal structures
