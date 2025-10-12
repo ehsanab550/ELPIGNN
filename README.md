@@ -2,7 +2,7 @@
   <img width="927" height="625" alt="image" src="https://github.com/user-attachments/assets/89bbb56e-507c-41ce-aa0c-e0fff7876efa" />
 
 # ELPIGNN: Electride Classification with Graph Neural Networks
-A deep learning framework for classifying electride materials using graph neural networks and physics-informed features.
+A deep learning framework for classifying electride materials using the costum design graph neural networks and physics-informed features.
 
 # Overview
 ELPIGNN (Electride Physics-Informed Graph Neural Network) is designed for multi-class classification of electride materials. It combines graph neural networks with angle-aware message passing and physics-based descriptors to classify materials into categories of binary electrides.
