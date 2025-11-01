@@ -40,7 +40,7 @@ bash
 ~ Periodic boundary condition handling
 
 # Model Architecture
--- The model processes crystal structures as graphs where:
+* The model processes crystal structures as graphs where:
 
 -- Nodes represent atoms with element property embeddings
 
