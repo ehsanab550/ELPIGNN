@@ -47,4 +47,5 @@ bokeh>=2.4.0
 nglview>=3.0.0
 
 # Optional: For progress bars in notebooks
+
 ipywidgets>=7.6.0
