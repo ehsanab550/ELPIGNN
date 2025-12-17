@@ -9,7 +9,7 @@ ELPIGNN (Electride Physics-Informed Graph Neural Network) is designed for multi-
 
 ## Quick Start
 . Installation bash
-### Clone repository
+### Clone repository 
 -- git clone https://github.com/ehsanab550/ELPIGNN.git
 
 ### Install dependencies
