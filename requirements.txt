@@ -10,7 +10,7 @@ torch>=1.13.0
 torchvision>=0.14.0
 torchaudio>=0.13.0
 
-# Graph Neural Networks
+#  Graph Neural Networks
 torch-geometric>=2.0.0
 torch-scatter>=2.1.0
 torch-sparse>=0.6.16
@@ -49,3 +49,4 @@ nglview>=3.0.0
 # Optional: For progress bars in notebooks
 
 ipywidgets>=7.6.0
+
