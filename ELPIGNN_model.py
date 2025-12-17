@@ -3,7 +3,7 @@
 """
 
 """
-ELPIGNN Model: Graph Neural Network with Angle-aware Message Passing
+ELPIGNN Model:  Graph Neural Network with Angle-aware Message Passing
 Handles POSCAR to graph conversion with element table embeddings and angle triplets
 """
 
@@ -363,5 +363,6 @@ class ELPIGNN(nn.Module):
         # Concatenate with global features
         hg = torch.cat([h, g], dim=1)
         logits = self.cls(hg)
+
 
         return logits
