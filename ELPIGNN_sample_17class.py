@@ -42,9 +42,7 @@ from sklearn.metrics import (roc_auc_score, accuracy_score, f1_score,
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.metrics import ConfusionMatrixDisplay
 
-# -----------------------------
-# Utils
-# -----------------------------
+
 
 def set_seed(seed: int = 42):
     random.seed(seed)
@@ -61,9 +59,7 @@ def check_for_nan(tensor, name=""):
         return True
     return False
 
-# -----------------------------
-# Plotting Functions
-# -----------------------------
+
 
 def plot_confusion_matrix(y_true, y_pred, class_names, save_path):
     """Plot and save confusion matrix"""
@@ -1231,3 +1227,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
