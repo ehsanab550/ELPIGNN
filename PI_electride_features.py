@@ -25,7 +25,6 @@ warnings.filterwarnings('ignore')
 poscar_path = r"/ele_PO&OSZ/*/separatePOSCAR/*/*/POSCAR"
 oszicar_path = r"/ele_PO&OSZ/*/separatePOSCAR/*/*/OSZICAR"
 
-# Get file lists
 filePOS = glob.glob(poscar_path)
 filePOS = list(filter(lambda f: os.stat(f).st_size > 0, filePOS))
 fileOSZ = glob.glob(oszicar_path)
@@ -69,7 +68,7 @@ for file_name in filePOS:
             indicator = 'UNKNOWN'
             material_name = second_dir
         
-        # Parse the structure
+        
         with open(file_name, 'r') as f:
             content = f.read()
         struct = Structure.from_str(content, fmt="poscar")
@@ -82,7 +81,7 @@ for file_name in filePOS:
         dic_formula = struct.composition.as_dict()
         densi = struct.density
         
-        # Append all data
+       
         formula.append(Formula)
         reduced_formula.append(Formula_redu)
         comp_formula.append(Formula_comp)
@@ -696,3 +695,4 @@ final_cleaned_df.to_csv(final_output_path, index=False)
 #print(f"Processing completed. Final shape: {final_cleaned_df.shape}")
 
 #print(f"Saved to: {final_output_path}")
+
