@@ -28,9 +28,7 @@ from torch_geometric.utils import scatter
 # Pymatgen for POSCAR parsing + PBC neighbor search
 from pymatgen.core import Structure
 
-# -----------------------------
-# Configuration & Utils
-# -----------------------------
+
 
 @dataclass
 class BuildConfig:
@@ -53,9 +51,7 @@ def check_for_nan(tensor, name=""):
         return True
     return False
 
-# -----------------------------
-# Element Table & Graph Construction
-# -----------------------------
+
 
 class ElementTable:
     """Maps element symbol → feature vector from ptable CSV."""
@@ -366,3 +362,4 @@ class ELPIGNN(nn.Module):
 
 
         return logits
+
